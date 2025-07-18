@@ -1,0 +1,33 @@
+.example::before {
+  content: "Before: ";
+  color: red;
+}
+
+.example::after {
+  content: " After";
+  color: blue;
+}
+
+a:hover {
+  color: green;
+}
+
+input:focus {
+  border-color: blue;
+}
+
+ul li:nth-child(2) {
+  color: purple;
+}
+
+input:not([type="text"]) {
+  border-color: red;
+}
+
+p::first-line {
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: yellow;
+} 

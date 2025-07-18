@@ -1,0 +1,25 @@
+:root {
+  --main-bg-color: lightblue;
+  --main-text-color: darkblue;
+  --main-padding: 10px;
+  --header-bg-color: lightgreen;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  padding: var(--main-padding);
+}
+
+.header {
+  background-color: var(--header-bg-color);
+  padding: var(--main-padding);
+}
+
+.container {
+  --main-bg-color: lightcoral;
+}
+
+.child {
+  background-color: var(--main-bg-color);
+} 

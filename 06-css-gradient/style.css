@@ -1,0 +1,17 @@
+.linear-gradient-example {
+  width: 300px;
+  height: 200px;
+  background-image: linear-gradient(to bottom, red, yellow);
+}
+
+.radial-gradient-example {
+  width: 300px;
+  height: 200px;
+  background-image: radial-gradient(circle at center, blue, lightblue);
+}
+
+.conic-gradient-example {
+  width: 300px;
+  height: 200px;
+  background-image: conic-gradient(from 0deg, red, yellow, green, blue, red);
+} 

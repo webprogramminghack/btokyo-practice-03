@@ -1,0 +1,21 @@
+.box {
+  width: 300px;
+  margin: 0 auto 0 auto;
+  background-color: lightblue;
+  /* text-align: center; */
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightgray;
+}
+
+.text-container {
+  text-align: center;
+  background-color: lightyellow;
+  padding: 20px;
+} 

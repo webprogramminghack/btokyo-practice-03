@@ -1,0 +1,27 @@
+.translate-example {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  transform: translate(200px, 100px);
+}
+
+.scale-example {
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+  transform: scale(0.5);
+}
+
+.rotate-example {
+  width: 100px;
+  height: 100px;
+  background-color: lightcoral;
+  transform: rotate(45deg);
+}
+
+.skew-example {
+  width: 100px;
+  height: 100px;
+  background-color: lightyellow;
+  transform: skew(20deg, 10deg);
+} 

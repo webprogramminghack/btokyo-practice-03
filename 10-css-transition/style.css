@@ -1,0 +1,46 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  transition: background-color 0.5s ease;
+}
+
+.box:hover {
+  background-color: lightcoral;
+}
+
+.multi-box {
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+  border-radius: 0;
+  transition: width 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease;
+}
+
+.multi-box:hover {
+  width: 150px;
+  background-color: lightpink;
+  border-radius: 50%;
+}
+
+.delay-box {
+  width: 100px;
+  height: 100px;
+  background-color: lightyellow;
+  transition: background-color 1s ease 0.5s;
+}
+
+.delay-box:hover {
+  background-color: lightblue;
+}
+
+.transition-example {
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+  transition: width 0.5s ease-in-out;
+}
+
+.transition-example:hover {
+  width: 200px;
+} 

@@ -1,0 +1,20 @@
+.calc-width-example {
+  width: calc(100% - 50px);
+  background-color: lightblue;
+  padding: 20px;
+}
+
+.calc-padding-example {
+  padding: calc(10px + 2%);
+  background-color: lightgreen;
+}
+
+.calc-height-example {
+  height: calc(100vh - 100px);
+  background-color: lightcoral;
+}
+
+.calc-mixed-units-example {
+  width: calc(50% + 100px);
+  background-color: lightyellow;
+} 
